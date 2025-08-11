@@ -1,0 +1,82 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    font-family: lato sans-serif;
+    color: black;
+}
+.parallax1{
+    position: relative;
+    background-image: url("../img/festa.jfif");
+    height: 100%;
+    opacity: .65;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-style: oblique;
+    
+}
+.caption span.border{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.box1{
+    background-color: grey;
+    text-align: center;
+    padding: 50px 80px;
+    font-style: inherit;
+}
+
+.parallax2{
+    position: relative;
+    background-image: url("../img/comida.jpg");
+    height: 100%;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2{
+    background-color: rgb(144, 143, 143);
+    text-align: center;
+    padding: 50px 80px;
+    font-style: oblique;
+
+}
+
+.parallax3{
+    position: relative;
+    background-image: url("../img/criança.webp");
+    height: 100%;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3{
+    background-color: rgb(144, 130, 130);
+    text-align: center;
+    padding: 50px 80px;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+}
+
+
